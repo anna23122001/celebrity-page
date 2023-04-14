@@ -1,0 +1,32 @@
+ul li {
+    display: inline-block;
+    font-size: 30px;
+line-height: 80px;
+text-align: center;
+}
+img {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+}
+h2, h1 {
+    text-align: center;
+}
+p{
+    text-indent: 20px;  
+}
+
+ p::first-line {
+    color: blue ;
+    font-size: 1.5rem;  
+}
+
+h2::before {
+    content: "\265b" ;
+}
+address {
+    display: inline-flex;
+}
+
+
+
