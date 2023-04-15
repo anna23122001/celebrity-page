@@ -2,7 +2,6 @@ ul li {
     display: inline-block;
     font-size: 30px;
     line-height: 80px;
- margin: auto;
 }
 img {
     border: 1px solid black;
@@ -24,9 +23,11 @@ p{
 h2::before {
     content: "\265b" ;
 }
-address {
-    display: inline-flex;
+.contact-inform{
+    display: inline-block;
+    text-align: center;
 }
+
 body {
     background: linear-gradient(to right, rgb(246, 147, 246), rgb(236, 236, 113));
 }
